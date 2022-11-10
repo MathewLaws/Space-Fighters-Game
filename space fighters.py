@@ -33,6 +33,7 @@ player1_rect = player1_surf.get_rect(topleft = (225, 250))
 player2_surf = pygame.image.load(
 	os.path.join("Assets", "blue spaceship.png"))
 
+
 player2_surf = pygame.transform.rotate(pygame.transform.scale(
 	player2_surf, (70,70)), 90)
 
